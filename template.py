@@ -40,7 +40,7 @@ for filepath in list_of_files:
         os.makedirs(filedir, exist_ok=True)
         logging.info(f"Created a directory structure : {filedir}")
     if ((not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0)):
-        with open(filepath, 'w') as fl:
+        with open(filepath, 'w') as new_file:
             logging.info(f"Creating a new file name {filename} in path {filedir}")
             pass
     else:
