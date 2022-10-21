@@ -129,5 +129,4 @@ dmypy.json
 .pyre/
 
 # all the log files
-
 *.log
