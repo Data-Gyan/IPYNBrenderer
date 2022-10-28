@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 REPO_NAME = "IPYNBrenderer"
 AUTHOR_USER_NAME = "Data-Gyan"
 SRC_REPO = "IPYNBrenderer"
-AUTHOR_EMAIL="hidden@nodisclose.com"
+AUTHOR_EMAIL="vvktyagi@gmail.com"
 
 
 setuptools.setup(
